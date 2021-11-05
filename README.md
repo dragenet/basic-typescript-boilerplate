@@ -17,7 +17,7 @@ See also the introduction blog post: **[Starting a TypeScript Project in 2021](h
 
 ```bash
 # Clone the repository (you can also click "Use this template")
-git clone https://github.com/dragenet/typescript-boilerplate.git your_project_name
+git clone https://github.com/dragenet/basic-typescript-boilerplate.git your_project_name
 cd your_project_name
 
 # Edit `package.json` and `tsconfig.json` to your liking
