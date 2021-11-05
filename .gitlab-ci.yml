@@ -1,4 +1,4 @@
-image: node:12
+image: node:16
 
 cache:
   paths:
@@ -12,10 +12,8 @@ lint-and-test:
   stage: test
   script:
     - yarn install
-    - yarn add -D esbuild
-    - yarn test
     - yarn lint
-    - yarn build-all
+    - yarn build
 
 # Deploy docs to Gitlab pages
 pages:
